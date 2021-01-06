@@ -29,4 +29,5 @@ def now_serving(katz_deli)
     "Currently serving #{(katz_deli[0])}."
     katz_deli.delete(0)
   end
+  return katz_deli
 end 
